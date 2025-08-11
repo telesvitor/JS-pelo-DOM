@@ -25,6 +25,7 @@ body.appendChild(novoh1);
 // 7. Mude a cor de fundo do body para "lightblue"
 body.style.BackGroundColor = 'ligthblue'
 
+
 // 8. Mude a cor do texto de todos os parágrafos para "darkgray"
 for (let p of paragrafos) {
   p.style.color='darkgray'
@@ -33,7 +34,7 @@ for (let p of paragrafos) {
 // ==================================================
 // ==> MANIPULAR ATRIBUTOS <==
 // 9. Adicione uma classe "destaque" ao elemento com id "meuId"
-elementoPorId.
+document.getElementById('meuid').classList.add('destaque')
 
 // 10. Adicione um atributo "title" com valor "Elemento destacado" ao mesmo elemento
-elementoPorId.
+document.getElementById('meuid').setAttribute('title', 'elementosdestacado')
